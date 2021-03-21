@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;  
+  overflow-x: hidden;
+  background: #ffffff;
+}
+.logo {
+  color: white;
+  padding-right: 200px;
+  padding-left: 50px;
+}
+.tab {
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+main {
+  height: 100%;
+}
+.tab {
+  text-align: center;
+  text-emphasis-color: white;
+}
+.header {
+  height: 100px;
+  background: #000000;
+}
+.about-me {
+  position: relative;
+  margin: 0 auto;
+  width: 40%;
+  height: 400px;
+  background: #ff3300;
+}
+.skills{
+  margin: 0 auto;
+  width: 80%;
+  height: 400px;
+  background: #ff3300;
+}
+.blank{
+  height: 175px;
+  background: #ff3300;
+}
+.blank2{
+  height: 75px;
+  background: #ffffff;
+}
+.tile-container {
+  position: absolute;
+  top: 1100px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  user-select: none;
+}
+
+.tile {
+  width: 200px;
+  height: 200px;
+  margin: 4px;
+  cursor: pointer;  
+  display: inline-block;
+}
+
+.page-container {
+  visibility: hidden;
+}
+
+.page {
+  position: absolute;
+  height: 200vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.hero-2 {
+  background: #999999;
+  width: 500px;
+}
+
+.hero-3 {
+  background: #999999;
+  width: 500px;
+}
+
+.footer {
+  top: 600px;
+  height: 200px;
+  background: #000000;
+}
+.about-me {
+  text-emphasis-color: white;
+  font-size: 10px;
+  text-align: left;
+}
