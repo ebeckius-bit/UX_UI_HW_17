@@ -24,12 +24,15 @@ main {
   text-align: center;
   text-emphasis-color: white;
 }
+.tab1 {
+  text-align: center;
+  text-emphasis-color: white;
+}
 .header {
   height: 100px;
   background: #000000;
 }
 .about-me {
-  position: relative;
   margin: 0 auto;
   width: 40%;
   height: 400px;
@@ -37,7 +40,7 @@ main {
 }
 .skills{
   margin: 0 auto;
-  width: 80%;
+  width: 40%;
   height: 400px;
   background: #ff3300;
 }
@@ -82,11 +85,13 @@ main {
 .hero-2 {
   background: #999999;
   width: 500px;
+  height: 600px;
 }
 
 .hero-3 {
   background: #999999;
   width: 500px;
+  height: 600px;
 }
 
 .footer {
@@ -95,7 +100,19 @@ main {
   background: #000000;
 }
 .about-me {
-  text-emphasis-color: white;
   font-size: 10px;
   text-align: left;
+}
+#aboutMe {
+  font-size: 24px;
+}
+#skills  {
+  font-size: 24px;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.skills {
+  font-size: 10px;
 }
